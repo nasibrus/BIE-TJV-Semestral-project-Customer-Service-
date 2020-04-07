@@ -1,5 +1,4 @@
 package my.vaadin.app;
-
 import com.vaadin.data.Binder;
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.ui.Button;
@@ -8,7 +7,8 @@ import com.vaadin.ui.FormLayout;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.NativeSelect;
 import com.vaadin.ui.TextField;
-import com.vaadin.ui.themes.ValoTheme;
+import com.vaadin.ui.themes.ValoTheme; 
+//Author Nasibov Ruslan
 
 public class CustomerForm extends FormLayout {
 
