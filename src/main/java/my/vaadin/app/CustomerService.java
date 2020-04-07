@@ -161,8 +161,7 @@ public class CustomerService {
      */
     public void ensureTestData() {
         if (findAll().isEmpty()) {
-            final String[] names = new String[] { "Yunis Yunisli", "Farid Abidov", "Ariz Nazirov",
-                    "Ruslan Nasibov", "Huseyn Gahramanov", "Camal Aslanov" };
+            final String[] names = new String[] { "Farid Abidov",  "Ruslan Nasibov", "Camal Aslanov" };
             Random r = new Random(0);
             for (String name : names) {
                 String[] split = name.split(" ");
