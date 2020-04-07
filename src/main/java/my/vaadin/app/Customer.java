@@ -1,8 +1,8 @@
 package my.vaadin.app;
-
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Date;
+//Author Nasibov Ruslan 
 
 @SuppressWarnings("serial")
 public class Customer implements Serializable, Cloneable {
