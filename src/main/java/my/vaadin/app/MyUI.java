@@ -1,9 +1,6 @@
 package my.vaadin.app;
-
 import java.util.List;
-
 import javax.servlet.annotation.WebServlet;
-
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.server.FontAwesome;
@@ -18,6 +15,7 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.ValoTheme;
+//Author Nasibov Ruslan
 
 @Theme("mytheme")
 public class MyUI extends UI {
